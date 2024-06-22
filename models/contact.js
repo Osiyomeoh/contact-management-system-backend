@@ -14,7 +14,7 @@ const contactSchema = new mongoose.Schema({
   phone: {
     type: String,
     required: true,
-    match: /^[0-9]{10}$/
+    match: /^[0-9]{11}$/
   }
 });
 

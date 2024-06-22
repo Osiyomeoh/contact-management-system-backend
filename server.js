@@ -12,8 +12,8 @@ app.use(cors());
 
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://samelect18:CDxf58r3FPCcOT0w@cluster0.7wnpjlr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true
 });
 
 mongoose.connection.once('open', () => {
